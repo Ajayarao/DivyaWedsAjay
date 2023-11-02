@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajay Weds Divya</title>
+    <title>Ajay Weds Divya &#128151;</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 8, 2023 00:00:00").getTime();
@@ -33,7 +31,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "The Marriage is Today...!🥳";
   }
 }, 1000);
 
@@ -62,69 +60,96 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+
+
 </script>
-    <header>
-        <h1>Divya Weds Ajay.!</h1>
-        <p>Join us in celebrating our special day</p>
+</head>
+<body>
+
+<div id="myHeader">
+    <header class="header">
+        <h1>Ajay Weds Divya.!💍</h1>
+        <p>Join us in celebrating our special day 🎉</p>
     </header>
     
-    <nav>
+ <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#home"><u>Home</u> 🏠</a></li>|
+            <li><a href="#events"><u>Events</u> 📝</a></li>|
+            <li><a href="#gallery"><u>Gallery</u> 📸</a></li>|
+            <li><a href="#rsvp"><u>RSVP</u> 📞</a></li> | 
+	    <a href="1.jpg" download="Download Invitation">
+  <button class="btn"> Download Invitation</button>
+</a>
         </ul>
     </nav>
-    
-    <section id="home">
+</div>
+   
+   <div class="content" id="home">
+    <section >
         <h2>Welcome to Our Wedding Website</h2>
         <p>Save the Date: <b>December 8th, 2023 (Friday)</b></p>
-	<center><b>COUNTDOWN: <h1 id="demo"></h1></b></center>
-    </section>
+	<center><b>COUNTDOWN ⏰: <h1 id="demo"></h1></b></center>
+
 
 
     <section id="events">
-        <h2>Wedding Events</h2>
+        <h2><u>Wedding Events</u> 📝</h2>
         <p>Details about the various events surrounding the wedding.</p>
 	
     </section>
 
     <section id="gallery">
-        <h2>Photo Gallery</h2>
+        <h2><u>Photo Gallery</u> 📸</h2>
 	
-        <p>Engagement Clicks...</p>
 	<!-- Header -->
 <div class="header" id="myHeader">
 </div>
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-    <img src="IMG-20230327-WA0050.jpg" style="width:100%">
-    <img src="IMG-20230327-WA0054.jpg" style="width:100%">
-    <img src="IMG-20230327-WA0056.jpg" style="width:100%">
-    <img src="IMG-20230327-WA0086.jpg" style="width:100%">
-    <img src="IMG-20230327-WA0174.jpg" style="width:100%">
+    <img src="1.jpg" style="width:100%">
+    <img src="3.jpg" style="width:100%">
+    <img src="5.jpg" style="width:100%">
+    <img src="8.jpg" style="width:100%">
   </div>
   <div class="column">
-    <img src="P_20230326_195412.jpg" style="width:100%">
-    <img src="image (1).jpg" style="width:100%">
-    <img src="image.jpg" style="width:100%">
-    <img src="IMG_20230326_193345.jpg" style="width:100%">
-    <img src="IMG_20230326_195040.jpg" style="width:100%">
-    <img src="IMG20230326191508.jpg" style="width:100%">
+    <img src="2.jpg" style="width:100%">
+    <img src="4.jpg" style="width:100%">
+    <img src="6.jpg" style="width:100%">
+    <img src="9.jpg" style="width:100%">    
+    <img src="7.jpg" style="width:100%">
+    
   </div>  
 </div>
 
     </section>
 
     <section id="rsvp">
-        <h2>RSVP</h2>
-        <p>Invite your guests to RSVP and join the celebration.</p>
+        <h2><u>RSVP</u> 📞</h2>
+        <p>To Ajay at <a href="tel:+91 916-427-9417">+91 916-427-9417</a>
+</p>
     </section>
     
     <footer>
-        <p>&copy; 2023 Ajay and Divya. All rights reserved.</p>
+        <p>&copy; 2023 Ajay and Divya. All Love reserved. &#x1F497;</p>
     </footer>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
